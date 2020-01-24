@@ -1,0 +1,23 @@
+{
+  "name": "tito.me",
+  "version": "1.0.0",
+  "description": "Tito's portfolio landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TitoYak211/titoyak.me.git"
+  },
+  "keywords": [
+    "tito",
+    "yak"
+  ],
+  "author": "Tito Yak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TitoYak211/titoyak.me/issues"
+  },
+  "homepage": "https://github.com/TitoYak211/titoyak.me#readme"
+}
