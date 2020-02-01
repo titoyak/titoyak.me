@@ -1,19 +1,11 @@
 /* Big tablet to 1200px */
 @media only screen and (max-width: 1335px) {
-    #details {
-        width: 65%;
-        padding-left: 40px;
-        transform: translateY(55%);
-    }
 }
 
 
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-    #details {
-        width: 85%;
-        transform: translateY(40%);
-    }
+    
 }
 
 
