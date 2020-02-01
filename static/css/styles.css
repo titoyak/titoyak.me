@@ -120,10 +120,10 @@ header {
 #details {
     width: 750px;
     margin: 0 auto;
-    color: #fafafa;
 }
 
 #details {
+    color: #fafafa;
     background: #383737;
     font-family: 'Monaco', 'Courier New';
     text-align: left;
