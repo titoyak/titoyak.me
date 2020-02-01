@@ -17,6 +17,7 @@ body {
     height: 100%;
     text-rendering: optimizeLegibility;
     text-align: center;
+    background-color: #f7f7f7;
 }
 
 section {
