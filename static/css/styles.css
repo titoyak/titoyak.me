@@ -16,10 +16,11 @@ body {
     overflow-x: hidden;
     height: 100%;
     text-rendering: optimizeLegibility;
+    text-align: center;
 }
 
 section {
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 /* ----- HEADINGS ----- */
@@ -39,7 +40,6 @@ h1 {
 }
 
 h2 {
-    font-size: 180%;
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
@@ -54,8 +54,6 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #e67e22;
-    content: "";
     width: 100px;
     margin: 0 auto;
     margin-top: 30px;
@@ -113,14 +111,23 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+#me {
+    padding-top: 250px;
+    font-size: 20px;
+}
+
+#me,
 #details {
     width: 750px;
     margin: 0 auto;
+    color: #fafafa;
+}
+
+#details {
     background: #383737;
     font-family: 'Monaco', 'Courier New';
     text-align: left;
     padding: 40px;
-    color: #fafafa;
     font-size: 15px;
     border-radius: 5px;
 }
