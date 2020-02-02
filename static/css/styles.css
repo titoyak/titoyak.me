@@ -115,18 +115,18 @@ header {
 }
 
 #me {
-    padding-top: 250px;
-    font-size: 1.5em;
+    transform: translateY(250px);
+    width: 700px;
 }
 
 #me,
 #details {
-    width: 750px;
+    color: #fafafa;
     margin: 0 auto;
 }
 
 #details {
-    color: #fafafa;
+    width: 750px;
     background: #383737;
     font-family: 'Monaco', 'Courier New';
     text-align: left;
