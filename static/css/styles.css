@@ -117,14 +117,37 @@ header {
 }
 
 #me {
-    transform: translateY(250px);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
     width: 700px;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 
 #me,
 #details {
     color: #fafafa;
     margin: 0 auto;
+}
+
+@keyframes moveInLeft{
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px);
+    }
 }
 
 #details {
