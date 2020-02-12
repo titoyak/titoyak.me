@@ -27,8 +27,7 @@ section {
 
 /* ----- HEADINGS ----- */
 h1,
-h2,
-h3 {
+h2{
     font-weight: 300;
     text-transform: uppercase;;
 }
@@ -49,8 +48,9 @@ h2 {
 }
 
 h3 {
-    font-size: 110%;
-    margin-bottom: 15px;
+    font-size: 120%;
+    line-height: 175%;
+    letter-spacing: 1.1px;
 }
 
 h2:after {
@@ -118,7 +118,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
-    width: 700px;
+    width: 50%;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
