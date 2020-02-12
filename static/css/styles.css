@@ -75,15 +75,15 @@ header {
 }
 
 #navigation-nav {
-    position: fixed;
     width: 100%;
+    border-bottom: 2px solid hsla(0,0%,100%,.2);
 }
 
 #navigation-list {
     float: right;
     list-style: none;
-    margin-top: 55px;
-    margin-right: 100px;
+    margin-top: 40px;
+    margin-right: 55px;
     text-decoration: none;
 }
 
@@ -93,22 +93,18 @@ header {
 }
 
 .photo {
-    height: 120px;
+    height: 75px;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 10px;
     float: left;
-    margin-left: 55px;
+    margin-left: 30px;
 }
 
 #navigation-list li a:link,
 #navigation-list li a:visited {
-    padding: 8px 0;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    border-bottom: 2px solid transparent;
-    -webkit-transition: border-bottom 0.2s;
-    transition: border-bottom 0.2s;
 }
 
 #navigation-list li a:hover,
