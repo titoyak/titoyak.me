@@ -173,6 +173,10 @@ footer {
     color: #fff;
 }
 
+.footer {
+    text-align: left;
+    margin-left: 10%;
+}
 .footer-nav h3 a {
     border-bottom: 2px solid #e67e22;
 }
