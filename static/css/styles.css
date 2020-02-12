@@ -119,9 +119,11 @@ header {
     transform: translate(-50%, -50%);
     display: block;
     width: 50%;
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
 }
 
 #me,
@@ -130,19 +132,12 @@ header {
     margin: 0 auto;
 }
 
-@keyframes moveInLeft{
+@keyframes fadeIn{
     0% {
         opacity: 0;
-        transform: translateX(-100px);
     }
-
-    80% {
-        transform: translateX(10px);
-    }
-
     100% {
         opacity: 1;
-        transform: translate(0px);
     }
 }
 
