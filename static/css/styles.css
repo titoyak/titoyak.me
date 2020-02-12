@@ -158,6 +158,10 @@ header {
     color:  #fff;
 }
 
+.skills h3 {
+    border-bottom: 2px solid hsla(0,0%,100%,.2);
+}
+
 /* projects */
 .projects {
     background-color: #f4f4f4;
