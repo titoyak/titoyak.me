@@ -71,17 +71,15 @@ h2:after {
     background-attachment: fixed;
     background: #00acc1 !important;
     position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); */
 }
 
 #navigation-nav {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     border-bottom: 2px solid hsla(0,0%,100%,.2);
     background-color:#00acc1;
-    z-index: 1000;
+    z-index: 1;
 }
 
 #navigation-nav ul {
