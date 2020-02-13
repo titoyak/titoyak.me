@@ -75,19 +75,16 @@ h2:after {
 }
 
 #navigation-nav {
-    width: 100%;
-    border-bottom: 2px solid hsla(0,0%,100%,.2);
-}
-
-.sticky {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     border-bottom: 2px solid hsla(0,0%,100%,.2);
-    background-color: #00acc1;
-    z-index: 1;
+    background-color:#00acc1;
+    z-index: 1000;
 }
 
-#navigation-list {
+#navigation-nav ul {
     float: right;
     list-style: none;
     margin-top: 40px;
@@ -95,12 +92,12 @@ h2:after {
     text-decoration: none;
 }
 
-#navigation-list li {
+#navigation-nav li {
     display: inline-block;
     margin-left: 40px;
 }
 
-.photo {
+#navigation-nav img {
     height: 80px;
     border-radius: 50%;
     margin-top: 10px;
@@ -108,15 +105,15 @@ h2:after {
     margin-left: 30px;
 }
 
-#navigation-list li a:link,
-#navigation-list li a:visited {
+#navigation-nav li a:link,
+#navigation-nav li a:visited {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-#navigation-list li a:hover,
-#navigation-list li a:active {
+#navigation-nav li a:hover,
+#navigation-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
 
