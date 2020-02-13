@@ -124,6 +124,7 @@ header {
     -moz-animation: fadeIn ease 3s;
     -o-animation: fadeIn ease 3s;
     -ms-animation: fadeIn ease 3s;
+    z-index: -9999;
 }
 
 #me,
