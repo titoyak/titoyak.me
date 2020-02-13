@@ -18,7 +18,6 @@ body {
     text-rendering: optimizeLegibility;
     text-align: center;
     background-color: #f7f7f7;
-    padding: 0px 2px;
 }
 
 section {
@@ -71,7 +70,7 @@ h2:after {
     background-attachment: fixed;
     background: #00acc1 !important;
     position: relative;
-    /* clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); */
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
 #navigation-nav {
@@ -80,6 +79,7 @@ h2:after {
     border-bottom: 2px solid hsla(0,0%,100%,.2);
     background-color:#00acc1;
     z-index: 1;
+    padding-right: 2px;
 }
 
 #navigation-nav ul {
