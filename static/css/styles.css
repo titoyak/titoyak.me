@@ -79,6 +79,14 @@ h2:after {
     border-bottom: 2px solid hsla(0,0%,100%,.2);
 }
 
+.sticky {
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid hsla(0,0%,100%,.2);
+    background-color: #00acc1;
+    z-index: 1;
+}
+
 #navigation-list {
     float: right;
     list-style: none;
