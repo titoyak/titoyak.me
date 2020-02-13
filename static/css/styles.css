@@ -122,17 +122,13 @@ h2:after {
     transform: translate(-50%, -50%);
     display: block;
     width: 50%;
+    color: #fafafa;
+    margin: 0 auto;
     animation: fadeIn ease 3s;
     -webkit-animation: fadeIn ease 3s;
     -moz-animation: fadeIn ease 3s;
     -o-animation: fadeIn ease 3s;
     -ms-animation: fadeIn ease 3s;
-}
-
-#me,
-#details {
-    color: #fafafa;
-    margin: 0 auto;
 }
 
 @keyframes fadeIn{
@@ -147,6 +143,8 @@ h2:after {
 #details {
     width: 750px;
     background: #383737;
+    color: #fafafa;
+    margin: 0 auto;
     font-family: 'Monaco', 'Courier New';
     text-align: left;
     padding: 40px;
