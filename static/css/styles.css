@@ -17,7 +17,7 @@ body {
     height: 100%;
     text-rendering: optimizeLegibility;
     text-align: center;
-    background-color: #f7f7f7;
+    background-color: #eee;
 }
 
 section {
@@ -163,11 +163,13 @@ h2:after {
     border-bottom: 2px solid hsla(0,0%,100%,.2);
 }
 
-/* projects */
+/* projects section*/
 .projects {
     background-color: #f4f4f4;
 }
 
+
+/* experience section */
 .branch {
     margin: 0 auto;
     margin-bottom: 4rem;
