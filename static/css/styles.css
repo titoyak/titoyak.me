@@ -176,8 +176,8 @@ h2:after {
 }
 
 .experience {
-    width: 915px;
-    height: 270px;
+    width: 1094.44px;
+    height: 322px;
     margin: 0 auto;
     box-shadow: 0 3rem 6rem rgba(#000, .1);
     background-color: #fff;
@@ -188,8 +188,8 @@ h2:after {
 }
 
 .experience__shape {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     float: left;
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
@@ -205,8 +205,8 @@ h2:after {
 }
 
 .experience__text {
-    height: 150px;
-    width: 705px;
+    height: 178px;
+    width: 846px;
     transform: skewX(12deg);
 }
 
