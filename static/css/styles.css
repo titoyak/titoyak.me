@@ -194,7 +194,7 @@ h2:after {
     perspective: 1000px;
 }
 
-.card:hover {
+.card:hover .card-side {
     transform: rotateY(-180deg);
 }
 
