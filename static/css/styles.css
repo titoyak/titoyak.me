@@ -189,15 +189,34 @@ h2:after {
 }
 
 .card {
-    background-color: #eee;
-    transition: 1s;
     perspective: 1000px;
+    position: relative;
+    border: none;
+    height: 100%;
 }
 
-.card:hover .card-side {
+.card-side {
+    background-color: #eee;
+    transition: all 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    height: 100%;
+}
+
+.card-side-back {
+    transform: rotateY(180deg);
+}
+
+.card:hover .card-side-front {
     transform: rotateY(-180deg);
 }
 
+.card:hover .card-side-back {
+    transform: rotateY(0deg);
+}
 
 /* experience section */
 .experience_story {
