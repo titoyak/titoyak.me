@@ -188,8 +188,14 @@ h2:after {
     margin-bottom: 100px;
 }
 
-.project-card {
+.card {
     background-color: #eee;
+    transition: 1s;
+    perspective: 1000px;
+}
+
+.card:hover {
+    transform: rotateY(-180deg);
 }
 
 
