@@ -221,6 +221,7 @@ h2:after {
 
 .card-back {
     transform: rotateY(180deg);
+    background-image: linear-gradient(to right bottom,  #ffb900, #ff7730);
 }
 
 
