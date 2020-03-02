@@ -177,8 +177,19 @@ h2:after {
 }
 
 /* projects section*/
+.section-projects {
+    background-color:  #fff;
+    transform: skewY(-5deg);
+    margin-bottom: 100px;
+}
+
 .projects {
-    background-color: #f4f4f4;
+    transform: skewY(5deg);
+    margin-bottom: 100px;
+}
+
+.project-card {
+    background-color: #eee;
 }
 
 
