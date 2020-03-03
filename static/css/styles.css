@@ -262,6 +262,9 @@ h2:after {
     padding: 0 1rem;
 }
 
+.card-back-1 {
+    background-image: linear-gradient(to right bottom, #f7f7f7, #999);
+}
 
 /* experience section */
 .experience_story {
