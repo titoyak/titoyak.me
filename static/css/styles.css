@@ -262,9 +262,35 @@ h2:after {
     padding: 0 1rem;
 }
 
+.card-back-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card-back-box a {
+    color: #fff;
+}
+
 .card-back-1 {
     background-image: linear-gradient(to right bottom, #f7f7f7, #999);
 }
+
+.card-back-2 {
+    background-image: linear-gradient(to right bottom, #f7f7f7, #999);
+}
+
+.card-back-3 {
+    background-image: linear-gradient(to right bottom, #f7f7f7, #999);
+}
+
+.card-back-4 {
+    background-image: linear-gradient(to right bottom, #f7f7f7, #999);
+}
+
 
 /* experience section */
 .experience_story {
