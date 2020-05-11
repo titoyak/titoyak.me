@@ -276,11 +276,11 @@ h2:after {
 }
 
 .card-back-1 {
-    background-image: linear-gradient(to right bottom, #f7f7f7, #999);
+    background-image: linear-gradient(to right bottom, #F9E4B7 , #FFD700);
 }
 
 .card-back-2 {
-    background-image: linear-gradient(to right bottom, #F9E4B7 , #FFD700);
+    background-image: linear-gradient(to right bottom, #7dd56f , #28b487);
 }
 
 .card-back-3 {
