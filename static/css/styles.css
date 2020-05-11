@@ -234,19 +234,19 @@ h2:after {
 }
 
 .card-picture-1 {
-    background-image: url(/static/css/img/dadu.jpg);
+    background-image: url(/static/img/dadu.jpg);
 }
 
 .card-picture-2 {
-    background-image: url(/static/css/img/books.jpg);
+    background-image: url(/static/img/books.jpg);
 }
 
 .card-picture-3 {
-    background-image: url(/static/css/img/homes.jpg);
+    background-image: url(/static/img/homes.jpg);
 }
 
 .card-picture-4 {
-    background-image: url(/static/css/img/chat.jpg);
+    background-image: url(/static/img/chat.jpg);
 }
 
 .card-heading {
