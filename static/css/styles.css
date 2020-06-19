@@ -360,7 +360,7 @@ h2:after {
 /* footer */
 footer {
     background: #00acc1 !important;
-    color: #fff;
+    color: #eee;
 }
 
 .footer {
@@ -373,6 +373,10 @@ footer {
 
  ul {
     list-style: none;
+}
+
+.footer_nav_item li a {
+    color: #eee;
 }
 
 footer p {
