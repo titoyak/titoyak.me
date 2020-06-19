@@ -114,6 +114,21 @@ h2:after {
     border-bottom: 2px solid #e67e22;
 }
 
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video_content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 #me {
     position: absolute;
     top: 40%;
