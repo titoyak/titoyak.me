@@ -3,6 +3,11 @@
     .card-container {
         height: 40rem;
     }
+
+    .experience {
+        width: 56rem;
+        height: 23rem;
+    }
 }
 
 
