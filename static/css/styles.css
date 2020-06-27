@@ -266,9 +266,8 @@ h2:after {
 .card-heading {
     text-align: right;
     position: absolute;
-    top: 7.5rem;
+    top: 8.5rem;
     right: 1rem;
-    width: 65%;
     color: #fff;
 }
 
