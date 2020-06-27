@@ -1,5 +1,5 @@
-/* Big tablet to 1200px */
-@media only screen and (max-width: 1335px) {
+/* Big tablet to 1336px */
+@media only screen and (max-width: 1336px) {
     .card-container {
         height: 40rem;
     }
