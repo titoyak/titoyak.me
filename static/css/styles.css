@@ -312,25 +312,24 @@ h2:after {
 }
 
 .experience {
-    width: 1094.44px;
-    height: 322px;
+    width: 65rem;
     margin: 0 auto;
     box-shadow: 0 3rem 6rem rgba(#000, .1);
     background-color: #fff;
     border-radius: 3px;
-    padding: 6rem;
-    padding-left: 9rem;
+    padding: 4rem;
+    padding-left: 8rem;
     transform: skewX(-12deg);
 }
 
 .experience__shape {
-    width: 180px;
-    height: 180px;
+    width: 15rem;
+    height: 15rem;
     float: left;
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 10rem;
 }
 
 .experience__img {
@@ -341,8 +340,6 @@ h2:after {
 }
 
 .experience__text {
-    height: 178px;
-    width: 846px;
     transform: skewX(12deg);
 }
 
