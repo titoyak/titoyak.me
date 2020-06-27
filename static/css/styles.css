@@ -335,7 +335,6 @@ h2:after {
 .experience__img {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
-    backface-visibility: hidden;
     transition: all .5s;
 }
 
