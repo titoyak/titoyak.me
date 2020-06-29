@@ -3,6 +3,10 @@
         padding: 0rem;
     }
     
+    .header {
+        height: 93vh;
+        clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    }
     .card-container {
         height: 40rem;
     }
