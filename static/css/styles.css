@@ -123,10 +123,10 @@ h3 {
 .header {
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 85vh;
     background-attachment: fixed;
     position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
 }
 
 .video {
