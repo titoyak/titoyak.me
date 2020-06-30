@@ -352,8 +352,8 @@ main {
 }
 
 .experience__shape {
-    width: 15rem;
-    height: 15rem;
+    width: 13.5rem;
+    height: 13.5rem;
     float: left;
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
