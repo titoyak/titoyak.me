@@ -201,6 +201,7 @@ main {
 .section-technical {
     margin-top: 5rem;
     margin-bottom: 5rem;
+    border-top: 0.15rem solid #fff;
 }
 
 .section-technical h3 {
