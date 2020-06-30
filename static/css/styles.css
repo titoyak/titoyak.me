@@ -231,6 +231,7 @@ main {
 .projects {
     transform: skewY(5deg);
     margin-bottom: 5rem;
+    margin-top: 5rem;
 }
 
 .card-container {
@@ -337,13 +338,10 @@ main {
 
 
 /* Experience section */
-.experience__section {
-    margin-top: 4rem;
-}
-
 .experience_story {
     margin: 0 auto;
     margin-bottom: 5rem;
+    margin-top: 5rem;
 }
 
 .experience {
