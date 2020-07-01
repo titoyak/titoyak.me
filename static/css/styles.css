@@ -227,7 +227,7 @@ main {
 }
 
 /* projects section*/
-.section-projects {
+#projects {
     background-color: #fff;
     transform: skewY(-5deg);
 }
