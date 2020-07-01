@@ -198,7 +198,7 @@ main {
 }
 
 /* Technical skills */
-.section-technical {
+#technical {
     margin-top: 5rem;
     border-top: 0.15rem solid #fff;
 }
@@ -208,7 +208,7 @@ main {
     margin-bottom: 5rem;
 }
 
-.section-technical h3 {
+#technical h3 {
     border-bottom: 0.15rem solid hsla(0,0%,100%,.7);
 }
 
@@ -226,7 +226,7 @@ main {
     transform: translateY(-1rem);
 }
 
-/* projects section*/
+/* Projects section*/
 #projects {
     background-color: #fff;
     transform: skewY(-5deg);
