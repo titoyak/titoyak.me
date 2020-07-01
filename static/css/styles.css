@@ -394,12 +394,12 @@ main {
     backface-visibility: hidden;
 }
 
-.experience:hover .experience__caption {
+.experience:hover .experience_caption {
     opacity: 1;
     transform: translate(-50%, -50%);
 }
 
-.experience:hover .experience__img {
+.experience:hover .experience_img {
     transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(80%);
 }
