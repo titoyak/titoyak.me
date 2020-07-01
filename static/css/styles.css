@@ -360,7 +360,7 @@ main {
     transform: skewX(-12deg);
 }
 
-.experience__shape {
+.experience_shape {
     width: 13.5rem;
     height: 13.5rem;
     float: left;
@@ -370,17 +370,17 @@ main {
     border-radius: 10rem;
 }
 
-.experience__img {
+.experience_img {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
     transition: all .5s;
 }
 
-.experience__text {
+.experience_text {
     transform: skewX(12deg);
 }
 
-.experience__caption {
+.experience_caption {
     position: absolute;
     top: 50%;
     left: 50%;
