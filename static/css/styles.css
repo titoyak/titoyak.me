@@ -426,28 +426,12 @@ footer {
     color: #eee;
 }
 
-footer p {
-    text-align: center;
-    width: 100%;
-}
-
 .fa-github {
     color:  #3E2C00;
 }
 
-.fa-facebook {
-    color: #3b5998;
-}
-
-.fa-instagram {
-    color: #d62976;
-}
 .fa-linkedin {
     color: #0e76a8;
-}
-
-.fa-youtube {
-    color: #c4302b
 }
 
 .fa-envelope {
@@ -456,10 +440,6 @@ footer p {
 
 .fa-phone {
     color: #000;
-}
-
-.fa-whatsapp {
-    color: #075E54;
 }
 
 .fa-home {
