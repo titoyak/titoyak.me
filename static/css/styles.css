@@ -376,7 +376,7 @@ main {
 
 .experience_img {
     height: 100%;
-    transform: translateX(-4rem) scale(1.4);
+    transform: translateX(-2rem) scale(1.35);
     transition: all .5s;
 }
 
