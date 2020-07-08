@@ -401,7 +401,7 @@ main {
     left: 50%;
     transform: translate(-50%, 20%);
     color: #eee;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 1.7rem;
     text-align: center;
     opacity: 0;
@@ -416,7 +416,7 @@ main {
 
 .experience:hover .experience_img {
     transform: translateX(-2rem) scale(1);
-    filter: blur(3px) brightness(80%);
+    filter: blur(0.2rem) brightness(80%);
 }
 
 /* Footer */
