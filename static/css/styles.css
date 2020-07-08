@@ -15,6 +15,7 @@ html {
 }
 
 body {
+    font-size: 115%;
     padding: 0rem 2rem 2rem;
     background-color: #777;
     color: #333333;
@@ -234,7 +235,6 @@ main {
 #projects {
     background-color: #fff;
     transform: skewY(-5deg);
-    font-size: 115%;
 }
 
 .projects {
@@ -383,7 +383,7 @@ main {
 
 .experience_text {
     transform: skewX(12deg);
-    font-size: 110%;
+    font-size: 95%;
 }
 
 .experience_text h3 {
