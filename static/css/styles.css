@@ -383,12 +383,12 @@ main {
 
 .experience_text {
     transform: skewX(12deg);
-    font-size: 95%;
+    font-size: 94%;
 }
 
 .experience_text h3 {
     text-transform: capitalize;
-    font-size: 130%;
+    font-size: 128%;
 }
 
 .experience_text em {
