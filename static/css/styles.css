@@ -234,6 +234,7 @@ main {
 #projects {
     background-color: #fff;
     transform: skewY(-5deg);
+    font-size: 115%;
 }
 
 .projects {
@@ -243,7 +244,7 @@ main {
 }
 
 .card-container {
-    height: 32rem;
+    height: 35rem;
     perspective: 60rem;
 }
 
