@@ -382,6 +382,16 @@ main {
 
 .experience_text {
     transform: skewX(12deg);
+    font-size: 110%;
+}
+
+.experience_text h3 {
+    text-transform: capitalize;
+    font-size: 132%;
+}
+
+.experience_text em {
+    font-weight: bold;
 }
 
 .experience_caption {
